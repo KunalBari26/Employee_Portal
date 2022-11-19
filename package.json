@@ -1,0 +1,19 @@
+{
+  "name": "user_backend",
+  "version": "1.0.0",
+  "description": "This is a project where the object is to create backend for the app which can perform CRUD op on a data of users usinf postgres",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "KunalBari",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "dot-env": "^0.0.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "pg": "^8.8.0"
+  }
+}
