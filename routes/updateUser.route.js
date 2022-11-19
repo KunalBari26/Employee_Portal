@@ -1,7 +1,7 @@
-const client = require('../models/employess.pg');
+const client = require('../models/employees.pg');
 
 const routes =  (app)=>{
-    app.put('/employee/update_name/:id', (req, res)=> {
+    app.put('/employees_portal/api/v1/update_name/:id', (req, res)=> {
          
     
         client.query(`update employees
@@ -20,7 +20,7 @@ const routes =  (app)=>{
         client.end;
     })
 
-    app.put('/employee/update_age/:id', (req, res)=> {
+    app.put('/employees_portal/api/v1/update_age/:id', (req, res)=> {
          
     
         client.query(`update employees
@@ -39,7 +39,7 @@ const routes =  (app)=>{
         client.end;
     })
 
-    app.put('/employee/update_gender/:id', (req, res)=> {
+    app.put('/employees_portal/api/v1/update_gender/:id', (req, res)=> {
          
     
         client.query(`update employees
@@ -58,7 +58,7 @@ const routes =  (app)=>{
         client.end;
     })
 
-    app.put('/employee/update_address/:id', (req, res)=> {
+    app.put('/employees_portal/api/v1/update_address/:id', (req, res)=> {
          
     
         client.query(`update employees
@@ -77,7 +77,7 @@ const routes =  (app)=>{
         client.end;
     })
 
-    app.put('/employee/update_salary/:id', (req, res)=> {
+    app.put('/employees_portal/api/v1/update_salary/:id', (req, res)=> {
          
     
         client.query(`update employees

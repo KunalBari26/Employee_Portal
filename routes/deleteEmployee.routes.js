@@ -1,4 +1,4 @@
-const client = require('../models/employess.pg');
+const client = require('../models/employees.pg');
 
 
 const routes =  (app)=>{
